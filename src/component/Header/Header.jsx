@@ -3,22 +3,18 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav>
-            <div className='nav-container'>
+        <div className='headerContainer'>
+            <div >
 
-                <h2>Job<span className='stromColor'>Strom</span></h2>
-
-                <div className='link-container'>
-                    <a>Home</a>
-                    <a>Statistics</a>
-                    <a>Applied Jobs</a>
-                    <a>Blog</a>
-                </div>
-
-                <button className='all-Btn'>Start Appling </button>
+                <h1>Find your next flexible <span className='stromColor'>Dream Job</span></h1>
+                <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
+                <button className='all-Btn'>Get Started</button>
 
             </div>
-        </nav>
+
+            <img src="/src/assets/image2.jpg" alt="" />
+
+        </div>
     );
 };
 

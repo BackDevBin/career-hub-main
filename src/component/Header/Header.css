@@ -1,42 +1,30 @@
-.nav-container {
+.headerContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #fdfafc;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.link-container {
-    display: flex;
-    gap: 20px;
-    font-weight: 600;
-    font-size: 16px;
-
+.headerContainer div {
+    max-width: 500px;
 }
 
-.nav-container h2 {
+.headerContainer h1 {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 70px;
+    
 }
 
-.link-container a:hover{
-    color: blue;
-
-}
-
-.all-Btn {
-    background: rgb(126, 126, 252);
-    border-radius: 5px;
-    font-weight: bold;
+.headerContainer p {
+    font-weight: 500;
     font-size: 16px;
-    color: #FFFFFF;
-    border: none;
-    padding: 10px;
+    color: #757575;
+    margin-bottom: 20px;
 }
 
-.all-Btn:hover{
-    background: rgb(131, 29, 247);
-}
-
-.stromColor{
-    color: rgb(126, 126, 252);
+.headerContainer img {
+    max-width: 500px;
+    border-radius: 10px;
 }
