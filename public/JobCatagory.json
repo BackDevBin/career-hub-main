@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "category_logo": "https://i.ibb.co/LNv7bs6/dev.png",
+      "category_name": "Software Development",
+      "jobs_available": 150
+    },
+    {
+      "id": 2,
+      "category_logo": "https://i.ibb.co/GWDNhcT/data.png",
+      "category_name": "Data Science",
+      "jobs_available": 200
+    },
+    {
+      "id": 3,
+      "category_logo": "https://i.ibb.co/NCSZ23p/market.png",
+      "category_name": "Marketing & Sales",
+      "jobs_available": 300
+    },
+    {
+      "id": 4,
+      "category_logo": "https://i.ibb.co/9cgfg0h/design.png",
+      "category_name": "Creative Design",
+      "jobs_available": 470
+    }
+  ]

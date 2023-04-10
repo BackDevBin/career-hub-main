@@ -1,0 +1,16 @@
+.card-info{
+    background-color: #fdfafc;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card-info img{
+    width: 60px;
+    border-radius: 10px;
+}
+
+.card-info h4{
+
+    margin-bottom: 0;
+
+}

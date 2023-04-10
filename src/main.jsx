@@ -8,11 +8,20 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Catagories from './component/Catagories/Catagories';
+import Header from './component/Header/Header';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    children: [
+      {
+        path: "/",
+        element: <Header></Header> ,
+      },
+
+    ]
   },
 ]);
 
