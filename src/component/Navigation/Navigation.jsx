@@ -10,7 +10,7 @@ const Navigation = () => {
 
                 <div className='link-container'>
                     <a>Home</a>
-                    <a>Statistics</a>
+                    <a href='/Statistics'>Statistics</a>
                     <a>Applied Jobs</a>
                     <a>Blog</a>
                 </div>

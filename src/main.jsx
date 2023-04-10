@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Catagories from './component/Catagories/Catagories';
 import Header from './component/Header/Header';
+import Statistics from './component/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -17,8 +18,8 @@ const router = createBrowserRouter([
     element: <App></App>,
     children: [
       {
-        path: "/",
-        element: <Header></Header> ,
+        path: "/Statistics",
+        element: <Statistics></Statistics> ,
       },
 
     ]
