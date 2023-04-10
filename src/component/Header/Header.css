@@ -1,0 +1,42 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fdfafc;
+}
+
+.link-container {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.nav-container h2 {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.link-container a:hover{
+    color: blue;
+
+}
+
+.all-Btn {
+    background: rgb(126, 126, 252);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+}
+
+.all-Btn:hover{
+    background: rgb(131, 29, 247);
+}
+
+.stromColor{
+    color: rgb(126, 126, 252);
+}
