@@ -1,0 +1,168 @@
+[
+    {
+      "id": 1,
+      "logo": "https://i.ibb.co/d4p1Cfw/google-1-1-1-1.png",
+      "title": "Software Engineer",
+      "company_name": "Google LLC",
+      "remote": "Remote",
+      "location": "San Francisco, CA",
+      "time": "Full-time",
+      "salary": "$120,000 - $150,000",
+      "description": "We are looking for a software engineer to join our team...",
+      "responsibility": "Responsibilities include...",
+      "requirements": "Bachelor's degree in Computer Science or related field...",
+      "Experiences": "3+ years of experience in software engineering...",
+      "contact": "(123) 456-7890 | email@example.com"
+    },
+    {
+      "id": 2,
+      "logo": "https://i.ibb.co/VmGbPNp/netflix-4-1.png",
+      "title": "Data Analyst",
+      "company_name": "Netflix LLC",
+      "remote": "Onsite",
+      "location": "New York, NY",
+      "time": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "description": "We are looking for a data analyst to join our team...",
+      "responsibility": "Responsibilities include...",
+      "requirements": "Bachelor's degree in Computer Science or related field...",
+      "Experiences": "",
+      "contact": "(123) 456-7890 | email@example.com"
+    },
+
+    {
+        "id": 3,
+        "logo": "https://i.ibb.co/QFQ4fLQ/samsung.png",
+        "title": "Data Analyst",
+        "company_name": "Samsumg LLC",
+        "remote": "Onsite",
+        "location": "New York, NY",
+        "time": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "description": "We are looking for a data analyst to join our team...",
+        "responsibility": "Responsibilities include...",
+        "requirements": "Bachelor's degree in Computer Science or related field...",
+        "Experiences": "",
+        "contact": "(123) 456-7890 | email@example.com"
+      },
+
+      {
+        "id": 4,
+        "logo": "https://i.ibb.co/q5QLhNT/amazon-pay.png",
+        "title": "Data Analyst",
+        "company_name": "Aamzon LLC",
+        "remote": "Onsite",
+        "location": "New York, NY",
+        "time": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "description": "We are looking for a data analyst to join our team...",
+        "responsibility": "Responsibilities include...",
+        "requirements": "Bachelor's degree in Computer Science or related field...",
+        "Experiences": "",
+        "contact": "(123) 456-7890 | email@example.com"
+      },
+
+
+      {
+        "id": 5,
+        "logo": "https://i.ibb.co/xJVtv2N/mac-os-logo.png",
+        "title": "Data Analyst",
+        "company_name": "Apple LLC",
+        "remote": "Onsite",
+        "location": "New York, NY",
+        "time": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "description": "We are looking for a data analyst to join our team...",
+        "responsibility": "Responsibilities include...",
+        "requirements": "Bachelor's degree in Computer Science or related field...",
+        "Experiences": "",
+        "contact": "(123) 456-7890 | email@example.com"
+      },
+
+
+      {
+        "id": 6,
+        "logo": "https://i.ibb.co/F6w6ZJ5/facebook.png",
+        "title": "Data Analyst",
+        "company_name": "FaceBook LLC",
+        "remote": "Onsite",
+        "location": "New York, NY",
+        "time": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "description": "We are looking for a data analyst to join our team...",
+        "responsibility": "Responsibilities include...",
+        "requirements": "Bachelor's degree in Computer Science or related field...",
+        "Experiences": "",
+        "contact": "(123) 456-7890 | email@example.com"
+      },
+
+
+      {
+        "id": 7,
+        "logo": "https://i.ibb.co/QcS6P0c/ebay-1.png",
+        "title": "Data Analyst",
+        "company_name": "Ebay Online Shopping LLC",
+        "remote": "Onsite",
+        "location": "New York, NY",
+        "time": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "description": "We are looking for a data analyst to join our team...",
+        "responsibility": "Responsibilities include...",
+        "requirements": "Bachelor's degree in Computer Science or related field...",
+        "Experiences": "",
+        "contact": "(123) 456-7890 | email@example.com"
+      },
+
+
+
+      {
+        "id": 8,
+        "logo": "https://i.ibb.co/12jh1fK/twitter.png",
+        "title": "Data Analyst",
+        "company_name": "Twitter LLC",
+        "remote": "Onsite",
+        "location": "New York, NY",
+        "time": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "description": "We are looking for a data analyst to join our team...",
+        "responsibility": "Responsibilities include...",
+        "requirements": "Bachelor's degree in Computer Science or related field...",
+        "Experiences": "",
+        "contact": "(123) 456-7890 | email@example.com"
+      },
+
+
+      {
+        "id": 9,
+        "logo": "https://i.ibb.co/fvVHzMQ/instagram.png",
+        "title": "Data Analyst",
+        "company_name": "Instagram LLC",
+        "remote": "Onsite",
+        "location": "New York, NY",
+        "time": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "description": "We are looking for a data analyst to join our team...",
+        "Job_Responsibility": "Responsibilities include...",
+        "Educational_Requirements": "Bachelor's degree in Computer Science or related field...",
+        "Experiences": "",
+        "contact": "(123) 456-7890 | email@example.com"
+      },
+
+
+      {
+        "id": 10,
+        "logo": "https://i.ibb.co/VH4yNjQ/tesla-9-1.png",
+        "title": "Data Analyst",
+        "company_name": "Tesla LLC",
+        "remote": "Onsite",
+        "location": "New York, NY",
+        "time": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "description": "We are looking for a data analyst to join our team...",
+        "responsibility": "Responsibilities include...",
+        "requirements": "Bachelor's degree in Computer Science or related field...",
+        "Experiences": "",
+        "contact": "(123) 456-7890 | email@example.com"
+      }
+   
+  ]
