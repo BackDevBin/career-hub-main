@@ -8,26 +8,37 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Catagories from './component/Catagories/Catagories';
-import Header from './component/Header/Header';
 import Statistics from './component/Statistics/Statistics';
+import Blog from './component/Blog/Blog';
+import Home from './component/Home/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
     children: [
+
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
       {
         path: "/Statistics",
-        element: <Statistics></Statistics> ,
+        element: <Statistics></Statistics>,
       },
-
+    
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
     ]
   },
+  
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
