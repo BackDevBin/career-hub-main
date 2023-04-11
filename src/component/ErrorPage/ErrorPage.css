@@ -1,0 +1,13 @@
+
+.ErrorPageContainer{
+    width: 100%;
+    margin: 10% 25%;
+    height: 100%;
+}
+
+.ErrorPage{
+    background-color: rgb(247, 180, 180);
+    max-width: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
