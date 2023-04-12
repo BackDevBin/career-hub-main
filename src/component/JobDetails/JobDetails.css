@@ -1,0 +1,46 @@
+.jobDetailsContainer{
+    margin: 100px 10%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.secondCol{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.DesTitle{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+.contactContainer{
+    background-color: #fdf3fa;
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.conTitle {
+    border-bottom: 1px solid cadetblue;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.logoSizes{
+    width: 15px;
+}
+
+.commonFlex{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logoSize {
+    width: 20px;
+    height: 20px;
+
+}

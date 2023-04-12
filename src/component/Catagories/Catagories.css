@@ -18,3 +18,15 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+
+@media only screen and (max-width: 896px) {
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+}

@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './FeatJobCard.css'
 import { Link } from 'react-router-dom';
+import { ViewDetails } from '../../App';
+
+
+
 
 const FeatJobCard = ({ company }) => {
 
-    const { company_name, location, time, remote, title, logo, salary,id } = company;
+    const { company_name, location, time, remote, title, logo, salary, id } = company;
+
+    const viewDetailsBtn = useContext(ViewDetails);
 
 
 
@@ -19,11 +25,19 @@ const FeatJobCard = ({ company }) => {
             </div>
 
             <div className='locationBlock'>
-                <p> <img src="/src/assets/Frame-4.png" alt="" /> {location}</p>
-                <p><img src="/src/assets/Frame.png" alt="" /> {salary}</p>
+
+                <div className='commonFlex'>
+                    <img className='logoSize' src="/src/assets/loc.png" alt="" />
+                    <p> {location}</p>
+                </div>
+
+                <div className='commonFlex'>
+                    <img className='logoSize' src="/src/assets/dollar.png" alt="" />
+                    <p> {salary}</p>
+                </div>
             </div>
 
-            <Link to="/job"><button className='all-Btn'>View Details</button></Link>
+            <Link to={`/job/${id}`}><button onClick={() => viewDetailsBtn(id)} className='all-Btn'>View Details</button></Link>
         </div>
     );
 };

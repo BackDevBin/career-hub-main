@@ -51,3 +51,32 @@ nav{
     text-decoration: none;
 }
 
+
+@media only screen and (max-width: 896px) {
+
+    nav{
+        padding-left: 2%;
+        padding-right: 2%;
+       
+    }
+
+    .nav-container {
+        display: inline;
+        text-align: center;
+    }
+
+    .link-container {
+        display: flex;
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 10%;
+    
+    }
+
+    .all-Btn {
+      margin-top: 10px;
+      margin-left: 30%;
+    }
+
+}
+
