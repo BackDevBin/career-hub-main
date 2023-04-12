@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import Catagories from '../Catagories/Catagories';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
@@ -8,12 +8,23 @@ const Home = () => {
 
     const companies = useLoaderData();
 
+    let fourCompanies = companies.slice(0,4);
+
+    const [company , setCompanies] = useState(fourCompanies);
+
+    const seeAllBtn = () => {
+        setCompanies(companies);
+    }
+    
+
 
     return (
-        <div>
+        <div className='homeBody'>
             <Header></Header>
             <Catagories></Catagories>
-            <FeaturedJobs companies={companies}></FeaturedJobs>
+            <FeaturedJobs companies={company}
+            seeAllBtn ={seeAllBtn}
+            ></FeaturedJobs>
             
         </div>
     );

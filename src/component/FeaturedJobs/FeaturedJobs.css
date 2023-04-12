@@ -1,0 +1,16 @@
+.featureBody{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.featContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+
+.btn-holder{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

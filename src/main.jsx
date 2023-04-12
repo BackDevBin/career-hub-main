@@ -12,6 +12,7 @@ import Statistics from './component/Statistics/Statistics';
 import Blog from './component/Blog/Blog';
 import Home from './component/Home/Home';
 import ErrorPage from './component/ErrorPage/ErrorPage';
+import JobDetails from './component/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,12 @@ const router = createBrowserRouter([
         path: "/blog",
         element: <Blog></Blog>,
       },
+
+      {
+        path: "/job",
+        element: <JobDetails></JobDetails>,
+      },
+
       {
         path: "*",
         element: <ErrorPage></ErrorPage>,

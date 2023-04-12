@@ -1,0 +1,32 @@
+.featCard{
+    border: 1px solid cadetblue;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.timeblock{
+
+    display: flex;
+    gap: 10px;
+    color: blueviolet;
+}
+
+.timeblock p {
+    border: 1px solid rgb(136, 136, 243);
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 2px 4px;
+}
+
+.cardLogo{
+    width: 80px;
+}
+
+.locationBlock{
+    display: flex;
+    gap: 20px;
+}
+
+.locationBlock img{
+    width: 15px;
+}
