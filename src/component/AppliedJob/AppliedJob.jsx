@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './AppliedJob.css'
 import { getShoppingCart } from '../../utilities/fakedb';
 import { useLoaderData } from 'react-router-dom';
+import AppliedCard from '../AppliedCard/AppliedCard';
 
 const AppliedJob = () => {
 
@@ -16,22 +17,29 @@ const AppliedJob = () => {
             .then(data => setJobs(data))
     }, []);
 
-    // console.log(jobs)
+    const [newJobs, setNewJobs] = useState([]);
+
+    useEffect( () =>{
+
+        const storeId = getShoppingCart();
+
+        const savedCart = [];
+
+        for(const id in storeId){
+
+           const saveJob = jobs.find(job => job.id == id);
+           if (saveJob) {
+
+            savedCart.push(saveJob);
+        }
+        }
+        
+        setNewJobs(savedCart);
+    },[jobs])
 
     
 
-    useEffect( () =>{
-        const storeId = getShoppingCart();
-
-        for(const id in storeId){
-            
-
-            const saveJob = jobs.find(job => job.id === id);
-            console.log(saveJob)
-            
-        }
-       
-    },[jobs])
+    
 
 
     return (
@@ -44,6 +52,14 @@ const AppliedJob = () => {
             <button className='filterBtn'>Remote</button>
             <button className='filterBtn'>Onsite</button>
 
+           </div>
+
+           <div>
+            
+           {
+            newJobs.map(newJob => <AppliedCard newJob={newJob}></AppliedCard>)
+           }
+        
            </div>
 
 
