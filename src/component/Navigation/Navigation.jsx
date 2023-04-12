@@ -15,7 +15,7 @@ const Navigation = () => {
                 <div className='link-container'>
                     <Link to="/">Home</Link>
                     <Link to="/Statistics">Statistics</Link>
-                    <Link to="/a">Applied Jobs</Link>
+                    <Link to="/applies">Applied Jobs</Link>
                     <Link to="/blog">Blog</Link>
                 </div>
 

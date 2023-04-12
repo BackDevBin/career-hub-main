@@ -1,9 +1,12 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import './JobDetails.css'
 import { useLoaderData } from 'react-router-dom';
 import { IdText } from '../../App';
+import { addToDb } from '../../utilities/fakedb';
 
 const JobDetails = () => {
+
+    const [job , setJob] = useState([]);
 
     const companyData = useLoaderData();
 
@@ -13,7 +16,14 @@ const JobDetails = () => {
 
     const jobs = companyData.find(job => job.id === companyId)
 
-    const { description, responsibility, requirements, Experiences,salary,title,location,email,contact} = jobs;
+    const { id,description, responsibility, requirements, Experiences,salary,title,location,email,contact} = jobs;
+
+
+    const applyBtn = (jobs) =>{
+        const newJob = [...job , jobs] ;
+    
+        addToDb(jobs.id);
+    }
 
     return (
         <div>
@@ -63,7 +73,7 @@ const JobDetails = () => {
                     </div>
 
                     <div className='secondCol'>
-                    <button className='all-Btn'>Apply Now</button>
+                    <button onClick={() =>applyBtn(jobs)} className='all-Btn'>Apply Now</button>
                     </div>
                     
                 </div>
