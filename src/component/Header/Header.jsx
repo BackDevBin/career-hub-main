@@ -12,7 +12,7 @@ const Header = () => {
 
             </div>
 
-            <img src="/src/assets/image2.jpg" alt="" />
+            <img src="/assets/image2.jpg" alt="" />
 
         </div>
     );

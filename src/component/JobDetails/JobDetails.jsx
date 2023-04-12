@@ -38,25 +38,25 @@ const JobDetails = () => {
                     <div className='contactContainer'>
                     <h3 className='conTitle'>Job Details</h3>
                     <div className='commonFlex'>
-                        <img className='logoSize' src="/src/assets/dollar.png" alt="" />
+                        <img className='logoSize' src="/assets/dollar.png" alt="" />
                         <p><span className='DesTitle'>Salary:</span> {salary} (Per Month)</p>
                     </div>
                     <div className='commonFlex'>
-                        <img className='logoSize' src="/src/assets/job.png" alt="" />
+                        <img className='logoSize' src="/assets/job.png" alt="" />
                     <p><span className='DesTitle'>Job Title:</span> {title}</p>
                     </div>
                     <h3 className='conTitle'>Contact Information</h3>
                     <div className='commonFlex'>
-                        <img className='logoSize' src="/src/assets/phn.png" alt="" />
+                        <img className='logoSize' src="/assets/phn.png" alt="" />
                     <p><span className='DesTitle'>Phone:</span> {contact}</p>
                     </div>
                     <div className='commonFlex'>
-                        <img className='logoSize' src="/src/assets/email.png" alt="" />
+                        <img className='logoSize' src="/assets/email.png" alt="" />
                     <p><span className='DesTitle'>Email:</span> {email}</p>
                     </div>
                     
                     <div className='commonFlex'>
-                        <img className='logoSize' src="/src/assets/loc.png" alt="" />
+                        <img className='logoSize' src="/assets/loc.png" alt="" />
                     <p><span className='DesTitle'>Address:</span> {location}</p>
                     </div>
 

@@ -27,12 +27,12 @@ const FeatJobCard = ({ company }) => {
             <div className='locationBlock'>
 
                 <div className='commonFlex'>
-                    <img className='logoSize' src="/src/assets/loc.png" alt="" />
+                    <img className='logoSize' src="/assets/loc.png" alt="" />
                     <p> {location}</p>
                 </div>
 
                 <div className='commonFlex'>
-                    <img className='logoSize' src="/src/assets/dollar.png" alt="" />
+                    <img className='logoSize' src="/assets/dollar.png" alt="" />
                     <p> {salary}</p>
                 </div>
             </div>
